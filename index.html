@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Shrishan Shetty | Cloud Architect & Developer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Shrishan Shetty. Expert in Cloud Environments (GCP, AWS, Azure), Monitoring & Alerts, Databases, and System Administration.">
+  <meta name="keywords" content="Shrishan Shetty, Cloud Engineer, GCP, AWS, Azure, DevOps, Monitoring, Grafana, MySQL, Portfolio, Mangalore">
+  <meta name="author" content="Shrishan Shetty">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Decorative Animated Background Blobs -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#hero" class="logo" id="logo-link">
+        <i class="fa-solid fa-cloud"></i>
+        <span>SHRISHAN</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active" id="nav-hero-link">Home</a></li>
+          <li><a href="#objective" class="nav-link" id="nav-obj-link">Objective</a></li>
+          <li><a href="#skills" class="nav-link" id="nav-skills-link">Skills</a></li>
+          <li><a href="#achievements" class="nav-link" id="nav-ach-link">Achievements</a></li>
+          <li><a href="#personal-info" class="nav-link" id="nav-personal-link">Personal Info</a></li>
+          <li><a href="#contact" class="nav-link" id="nav-contact-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <button class="menu-btn" id="menu-btn" aria-label="Open navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-container">
+        <div class="hero-content fade-up">
+          <div class="hero-tag">
+            <i class="fa-solid fa-circle"></i> Available for Opportunities
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <br><span class="hero-name">Shrishan Shetty</span>
+          </h1>
+          <div class="hero-subtitle">
+            I specialize in <span class="typed-text" id="typed-text"></span>
+          </div>
+          <p class="hero-description">
+            Passionate Cloud Tech Enthusiast and System Administrator focused on building scalable, resilient cloud architectures across GCP, AWS, and Azure. Specialized in monitoring systems and database management.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" id="hero-cta-contact">Get In Touch <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#skills" class="btn btn-secondary" id="hero-cta-skills">View Skills</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual fade-up">
+          <div class="hero-image-container">
+            <img src="avatar.png" alt="Shrishan Shetty Profile Picture" id="profile-img">
+          </div>
+          <!-- Floating Tech Badges -->
+          <div class="floating-badge badge-gcp">
+            <i class="fa-brands fa-google"></i>
+            <span>GCP</span>
+          </div>
+          <div class="floating-badge badge-aws">
+            <i class="fa-brands fa-aws"></i>
+            <span>AWS</span>
+          </div>
+          <div class="floating-badge badge-azure">
+            <i class="fa-solid fa-server"></i>
+            <span>Azure</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objective / About Section -->
+    <section id="objective">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">Career Focus</span>
+        <h2 class="section-title">My Objective</h2>
+      </div>
+      
+      <div class="objective-grid">
+        <div class="glass-card fade-up">
+          <p class="objective-highlight">
+            "To obtain a position in cloud environments and technologies where I can utilize my technical skills and passion for innovation to improve customer service and contribute to departmental growth and profitability."
+          </p>
+          <p class="objective-text">
+            Equipped with strong foundational knowledge of modern operating systems, scripting languages, database administration, and continuous integration. Eager to solve complex scaling, deployment, and health monitoring challenges for enterprise applications.
+          </p>
+        </div>
+        
+        <div class="about-metrics fade-up">
+          <div class="glass-card metric-card">
+            <div class="metric-value">3+</div>
+            <div class="metric-label">Cloud Platforms</div>
+          </div>
+          <div class="glass-card metric-card">
+            <div class="metric-value">5+</div>
+            <div class="metric-label">OS & Tech Stacks</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">Expertise</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      
+      <div class="skills-container">
+        <!-- Cloud Platforms & Monitoring -->
+        <div class="skills-category glass-card fade-up">
+          <h3 class="skills-category-title">
+            <i class="fa-solid fa-cloud-arrow-up"></i> Cloud & Monitoring
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-google" style="color: #4285f4;"></i> Google Cloud (GCP)</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="80%"></div>
+              </div>
+              <div class="badge-container">
+                <span class="tech-badge">Compute Engine</span>
+                <span class="tech-badge">Cloud Storage</span>
+                <span class="tech-badge">IAM & Admin</span>
+                <span class="tech-badge">Cloud Monitoring</span>
+                <span class="tech-badge">Cloud Logging</span>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-aws" style="color: #ff9900;"></i> Amazon Web Services</span>
+                <span class="skill-level">Basic</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="60%"></div>
+              </div>
+              <div class="badge-container">
+                <span class="tech-badge">EC2</span>
+                <span class="tech-badge">S3</span>
+                <span class="tech-badge">IAM</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-solid fa-server" style="color: #0078d4;"></i> Microsoft Azure</span>
+                <span class="skill-level">Basic</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="60%"></div>
+              </div>
+              <div class="badge-container">
+                <span class="tech-badge">Azure VMs</span>
+                <span class="tech-badge">Azure Monitor</span>
+                <span class="tech-badge">Entra ID</span>
+                <span class="tech-badge">Azure Alerts</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-solid fa-chart-line" style="color: #f77d05;"></i> Monitoring & Alerts</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="75%"></div>
+              </div>
+              <div class="badge-container">
+                <span class="tech-badge">GCP Alerting</span>
+                <span class="tech-badge">CloudWatch Alarms</span>
+                <span class="tech-badge">Azure Alerts</span>
+                <span class="tech-badge">Grafana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages & Databases -->
+        <div class="skills-category glass-card fade-up">
+          <h3 class="skills-category-title">
+            <i class="fa-solid fa-code"></i> Dev & Database
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-php" style="color: #777bb4;"></i> PHP, HTML & CSS</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-java" style="color: #f89820;"></i> Java</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="70%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-brands fa-python" style="color: #3776ab;"></i> Python</span>
+                <span class="skill-level">Basic</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="50%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-solid fa-database" style="color: #00758f;"></i> MySQL</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="75%"></div>
+              </div>
+              <div class="badge-container">
+                <span class="tech-badge">Queries</span>
+                <span class="tech-badge">Database Design</span>
+                <span class="tech-badge">Administration</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name"><i class="fa-solid fa-laptop-code" style="color: #64748b;"></i> Operating Systems</span>
+                <span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="90%"></div>
+              </div>
+              <div class="badge-container">
+                <span class="tech-badge">Linux</span>
+                <span class="tech-badge">Windows</span>
+                <span class="tech-badge">macOS</span>
+                <span class="tech-badge">Windows Server (19/22)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">Highlights</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+      
+      <div class="achievements-timeline">
+        <div class="timeline-item fade-up">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-badge"><i class="fa-solid fa-trophy"></i> 2nd Prize Winner</div>
+            <h3 class="timeline-title">Wolfpack Showdown – Gaming</h3>
+            <div class="timeline-sub"><i class="fa-solid fa-calendar-days"></i> State-Level Intercollegiate IT Fest EKASHUNYAM 3.0</div>
+            <p class="timeline-desc">
+              Demonstrated strategic alignment, quick reflex actions, and exceptional team collaboration to secure the runner-up position in a highly competitive multi-stage gaming event.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-badge"><i class="fa-solid fa-medal"></i> 2nd Prize Winner</div>
+            <h3 class="timeline-title">Bunts State-Level Kabaddi Tournament</h3>
+            <div class="timeline-sub"><i class="fa-solid fa-location-dot"></i> Mumbai, India</div>
+            <p class="timeline-desc">
+              Showcased physical endurance, discipline, tactical defenses, and rapid raids as part of the state representative squad, competing against major athletic circles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal Info & Hobbies -->
+    <section id="personal-info">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">Background</span>
+        <h2 class="section-title">Personal Details & Hobbies</h2>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Personal Information Card -->
+        <div class="glass-card fade-up">
+          <h3 class="skills-category-title" style="margin-bottom: 2rem;">
+            <i class="fa-solid fa-user-gear"></i> Personal Profile
+          </h3>
+          <ul class="personal-quick-info">
+            <li>
+              <i class="fa-solid fa-user-ninja"></i>
+              <strong>Father's Name</strong>
+              <span>Shrinivasa Shetty</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-cake-candles"></i>
+              <strong>Date of Birth</strong>
+              <span>May 31, 2006</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-map-pin"></i>
+              <strong>Place of Birth</strong>
+              <span>Dakshina Kannada, Karnataka</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-heart"></i>
+              <strong>Marital Status</strong>
+              <span>Single</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-language"></i>
+              <strong>Languages</strong>
+              <span>English, Hindi, Kannada & Tulu (Fluent)</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-house-chimney"></i>
+              <strong>Home Address</strong>
+              <span>Halasinakatte House, Savanalu, Belthangady, Karnataka, 574214</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hobbies Card -->
+        <div class="glass-card fade-up" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 class="skills-category-title" style="margin-bottom: 2rem;">
+              <i class="fa-solid fa-gamepad"></i> Hobbies & Interests
+            </h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name"><i class="fa-solid fa-volleyball" style="color: var(--accent-orange);"></i> Playing Sports</span>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.25rem;">Active participation in Kabaddi, football, and athletic events.</p>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name"><i class="fa-solid fa-hands-holding-child" style="color: var(--accent-purple);"></i> Helping in Family Works</span>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.25rem;">Managing local household operations and supportive community contributions.</p>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name"><i class="fa-solid fa-globe" style="color: var(--accent-blue);"></i> Internet Surfing</span>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.25rem;">Researching cloud trends, exploring open-source projects, and studying documentation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-header fade-up">
+        <span class="section-subtitle">Get in Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Contact Details Info Panel -->
+        <div class="contact-info-panel fade-up">
+          <p class="objective-text">
+            Feel free to reach out to me directly if you have any questions, career opportunities, or if you want to collaborate on cloud architecture and admin projects.
+          </p>
+          
+          <div class="info-cards">
+            <div class="glass-card info-card">
+              <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-details">
+                <span class="info-label">Email Me</span>
+                <a href="mailto:shrishanshetty@gmail.com" class="info-value" id="contact-email">shrishanshetty@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="glass-card info-card">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-details">
+                <span class="info-label">Call Me</span>
+                <a href="tel:+917411688905" class="info-value" id="contact-phone">+91 7411688905</a>
+              </div>
+            </div>
+
+            <div class="glass-card info-card">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-details">
+                <span class="info-label">Location</span>
+                <span class="info-value">Mangalore, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Buttons -->
+          <div class="social-links">
+            <a href="https://linkedin.com/in/shrishan-shetty" target="_blank" class="social-btn linkedin" aria-label="LinkedIn profile" id="contact-linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com" target="_blank" class="social-btn github" aria-label="GitHub profile" id="contact-github"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:shrishanshetty@gmail.com" class="social-btn email" aria-label="Send Email" id="contact-mail-btn"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="glass-card fade-up">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-input" placeholder="Collaboration / Job Offer" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea id="message" class="form-input" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary submit-btn" id="contact-submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            <div class="form-message" id="form-msg"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <i class="fa-solid fa-cloud"></i> SHRISHAN
+      </div>
+      <ul class="footer-links">
+        <li><a href="#hero" class="footer-link">Home</a></li>
+        <li><a href="#objective" class="footer-link">Objective</a></li>
+        <li><a href="#skills" class="footer-link">Skills</a></li>
+        <li><a href="#achievements" class="footer-link">Achievements</a></li>
+        <li><a href="#contact" class="footer-link">Contact</a></li>
+      </ul>
+      <p class="copyright">
+        &copy; <span id="current-year"></span> Shrishan Shetty. All Rights Reserved. Built with passion & cloud tech.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
